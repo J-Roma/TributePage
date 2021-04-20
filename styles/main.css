@@ -13,26 +13,36 @@
     border-radius: 5px;
  }
 
-#tittle{
+#title{
     background-color: gainsboro;
 }
 
-#tittle h1{
+#title h1{
     font-size: 45px;
 }
 
-#tittle h2{
+#title h2{
     font-size: 25px;
 }
 
 #img-div{
-    padding:10px;
-    margin: 30px 20px;
+    /*padding:10px;
+    margin: 30px 20px;*/
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 10px;
 }
 
 #image{
-    min-width: 35px;
-    max-width: 50%;
+    max-width: 100%;
+    display: block;
+}
+
+@media screen only (min-width: 500px) {
+    #image{
+        min-width: auto;
+        max-width: auto;
+    }     
 }
 
 #img-caption{
@@ -52,7 +62,7 @@
     margin-top: 5px;
 }
 
-#tribute-link{
+footer{
     background-color: gainsboro;
     text-decoration: none;
     font-size:  13px;
